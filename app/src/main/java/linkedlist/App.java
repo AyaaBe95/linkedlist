@@ -8,19 +8,48 @@ public class App {
 
 
     public static void main(String[] args) {
-        linkedList l = new linkedList();
-        l.insertLast(5);
-        l.insertLast(7);
-        l.insertLast(8);
-        l.insertBefore(8,9);
-//        l.remove(5);
-//        l.removeAll();
-        System.out.println(l.seqSearch(9));
 
-//        l.toString();
+        linkedList l = new linkedList();
+        l.insertLast(1);
+        l.insertLast(3);
+        l.insertLast(6);
+        l.insertLast(7);
+        l.insertLast(5);
+        l.reverse();
+        l.toString();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
